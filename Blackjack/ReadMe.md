@@ -1,0 +1,1 @@
+This is my work in progress BlackJack game. It starts off well, but the code gets very messy near the end. Please feel free to add features (I've made a to-do list) and clean up the code!!
