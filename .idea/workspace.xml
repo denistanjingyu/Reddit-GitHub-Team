@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39479912-06c5-4db5-9634-1d233ae84aa1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Blackjack/ReadMe.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Encryption/ReadMe.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Analysis Project/ReadMe.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,12 +37,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Encryption/ReadMe.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="76">
-                <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+              <first_editor relative-caret-position="19">
+                <caret line="1" selection-start-line="1" selection-end-line="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data Analysis Project/ReadMe.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="162" selection-start-line="2" selection-start-column="162" selection-end-line="2" selection-end-column="162" />
               </first_editor>
               <second_editor />
             </state>
@@ -61,6 +72,7 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/Blackjack/ReadMe.md" />
         <option value="$PROJECT_DIR$/Encryption/ReadMe.md" />
+        <option value="$PROJECT_DIR$/Data Analysis Project/ReadMe.md" />
       </list>
     </option>
   </component>
@@ -75,7 +87,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -91,12 +102,18 @@
             <path>
               <item name="Reddit-GitHub-Team" type="b2602c69:ProjectViewProjectNode" />
               <item name="Reddit-GitHub-Team" type="462c0819:PsiDirectoryNode" />
+              <item name="Data Analysis Project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Reddit-GitHub-Team" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Reddit-GitHub-Team" type="462c0819:PsiDirectoryNode" />
               <item name="Encryption" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -175,8 +192,18 @@
     <entry file="file://$PROJECT_DIR$/Encryption/ReadMe.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" column="82" selection-start-line="4" selection-start-column="82" selection-end-line="4" selection-end-column="82" />
+          <first_editor relative-caret-position="19">
+            <caret line="1" selection-start-line="1" selection-end-line="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data Analysis Project/ReadMe.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="162" selection-start-line="2" selection-start-column="162" selection-end-line="2" selection-end-column="162" />
           </first_editor>
           <second_editor />
         </state>
