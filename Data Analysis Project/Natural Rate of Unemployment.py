@@ -4,32 +4,49 @@
 # In[9]:
 
 
+#Import libraries
 import quandl
 import pandas as pd
 import matplotlib.pyplot as plt
+#Personal API Key
 quandl.ApiConfig.api_key = "TQUQzkUTBHrerch_9RnN"
 
 
 # In[10]:
 
 
-nru = quandl.get("FRED/NROUST")
+#Pull data from quandl
+
+#Short term
+nru_st = quandl.get("FRED/NROUST")
+#Long term
+nru_lt = quandl.get("FRED/NROU")
 
 
 # In[11]:
 
 
-type(nru)
+#Check the data structures
+type(nru_st)
+type(nru_lt)
 
 
 # In[17]:
 
 
-plt.plot(nru)
-plt.xlabel('Year')
-plt.ylabel('NRU')
-plt.title('Natural rate of unemployment over the years')
-nru.describe()
+#Plot the data
+plt.plot(nru_st, label='st')
+plt.plot(nru_lt, label='lt')
+plt.xlabel('Year',fontsize=20)
+plt.ylabel('NRU',fontsize=20)
+plt.title('Natural rate of unemployment over the years',fontsize=20)
+plt.legend(fontsize=20)
+fig = plt.gcf()
+fig.set_size_inches(16, 8)
+plt.show()
+
+#Provide some summary statistics
+nru.describe()[1::]
 
 
 # In[ ]:
